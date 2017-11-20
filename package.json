@@ -1,0 +1,29 @@
+{
+  "name": "angular-async-module",
+  "version": "1.0.0",
+  "description": "for angularjs1.x load async module",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node examples/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mosby-zhou/angular-async-module"
+  },
+  "author": "zhoucong",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Mosby-zhou/angular-async-module/issues"
+  },
+  "homepage": "https://github.com/Mosby-zhou/angular-async-module#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^0.4.3",
+    "request": "^2.83.0",
+    "requirejs": "^2.3.5"
+  }
+}
