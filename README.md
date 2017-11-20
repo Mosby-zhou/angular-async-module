@@ -1,5 +1,4 @@
 # angular-async-module
-===============================================================
 for angularjs 1.x load async module
 
 ## Start
