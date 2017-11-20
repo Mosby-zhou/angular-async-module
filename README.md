@@ -11,4 +11,4 @@ import `angular`, `require`and`angular-async-module`(`angular-ui-router` is not 
 * Open `http://localhost:8888/` in the browser
 
 ## Help
-you can set attrs `loading-start` and `loading-end` to do you need to do when loading, there is an attr `scope-level` you can set whene you use `async-tmpl` in deep scope, and you `loading-start & loading-end` function in out scope. **Be careful : ** ng-transclude and ui-view will create a new scope.
+you can set attrs `loading-start` and `loading-end` to do you need to do when loading, there is an attr `scope-level` you can set whene you use `async-tmpl` in deep scope, and you `loading-start & loading-end` function in out scope. **Be careful :** ng-transclude and ui-view will create a new scope.
