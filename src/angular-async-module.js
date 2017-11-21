@@ -52,8 +52,10 @@
                                 files.push(match[1]);
                             }
                             require(files, function(r) {
-                                _module.requires.push(r);
-                                loadAsync(r);
+                                for(var i = 0; i < arguments.length;i++){
+                                    _module.requires.push(arguments[i]);
+                                    loadAsync(arguments[i]);
+                                }
                                 $scope.$apply(function() {
                                     _templateLoadingState[$scope.url].state = TemplateLoadingState.Complete;
                                     angular.forEach(_templateLoadingState[$scope.url].waitCompleteList, function(fun) {
